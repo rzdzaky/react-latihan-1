@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import StatefullComponent from './containers/StatefullComponent';
 import MainHeader from './components/MainHeader/MainHeader';
 import TopWrapper from './components/TopWrapper/TopWrapper';
+import LessonWrapper from './components/LessonWrapper/LessonWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <StatefullComponent /> */}
     <MainHeader />
     <TopWrapper />
+    <LessonWrapper />
   </React.StrictMode>,
   document.getElementById('MainHeader')
 );
