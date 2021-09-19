@@ -10,9 +10,9 @@ const MainHeader = () => {
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
-          <a href="#">Pelajaran</a>
-          <a href="#">Daftar</a>
-          <a href="#" class="login">Log in</a>
+          <a href="#">About Me</a>
+          <a href="#">Projects</a>
+          <a href="#" class="left">Contact</a>
         </div>
       </div>
     </header>
