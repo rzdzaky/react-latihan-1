@@ -8,10 +8,16 @@ const HelloComponent = () => {
   return <p>Hello Component</p>
 }
 
+class StatefullComponent extends React.Component {
+  render(){
+    return <p>Statefull Component</p>
+  }
+}
+
 ReactDOM.render(
   
   <React.StrictMode>
-    <HelloComponent />
+    <StatefullComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
