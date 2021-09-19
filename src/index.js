@@ -9,7 +9,9 @@ const HelloWorld = () => {
 }
 
 ReactDOM.render(
+  
   <React.StrictMode>
+    <p>Test</p>
     <HelloWorld />
   </React.StrictMode>,
   document.getElementById('root')
