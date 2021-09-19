@@ -2,18 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HelloComponent from './components/HelloComponent';
 import reportWebVitals from './reportWebVitals';
-
-class StatefullComponent extends React.Component {
-  render(){
-    return <p>Statefull Component</p>
-  }
-}
+import StatefullComponent from './containers/StatefullComponent';
+import HelloComponent from './components/HelloComponent';
 
 ReactDOM.render(
   <React.StrictMode>
     <HelloComponent />
+    <StatefullComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
