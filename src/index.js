@@ -4,15 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const HelloWorld = () => {
-  return <p>Hello World</p>
+const HelloComponent = () => {
+  return <p>Hello Component</p>
 }
 
 ReactDOM.render(
   
   <React.StrictMode>
-    <p>Test</p>
-    <HelloWorld />
+    <HelloComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
