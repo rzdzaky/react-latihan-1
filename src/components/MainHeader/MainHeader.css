@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.clear {
+    clear: left;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.header-left h3{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+  
+.header-left {
+    margin-left: 40px;
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.login {
+    margin-right: 50px;
+}

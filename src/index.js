@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import StatefullComponent from './containers/StatefullComponent';
-import HelloComponent from './components/HelloComponent';
+import MainHeader from './components/MainHeader/MainHeader';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloComponent />
-    <StatefullComponent />
+    {/* <StatefullComponent /> */}
+    <MainHeader />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('header')
 );
 
 // If you want to start measuring performance in your app, pass a function
