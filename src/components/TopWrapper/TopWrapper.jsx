@@ -7,7 +7,7 @@ const TopWrapper = () => {
             <div class="container">
                 <h1>BELAJAR CODING.</h1>
                 <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
-                <p>Progate adalah platform online untuk belajar coding.</p>
+                <p>Code With RZDZAKY adalah platform online untuk belajar coding.</p>
                 <p>Kami menawarkan lingkungan pemograman yang lengkap untuk mempermudah Anda memulai.</p>
                 <div class="btn-wrapper">
                     <a href="#" class="btn signup">Daftar dengan Email</a>
