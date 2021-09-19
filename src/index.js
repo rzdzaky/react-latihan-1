@@ -2,11 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import HelloComponent from './components/HelloComponent';
 import reportWebVitals from './reportWebVitals';
-
-const HelloComponent = () => {
-  return <p>Hello Component</p>
-}
 
 class StatefullComponent extends React.Component {
   render(){
@@ -15,9 +12,8 @@ class StatefullComponent extends React.Component {
 }
 
 ReactDOM.render(
-  
   <React.StrictMode>
-    <StatefullComponent />
+    <HelloComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
