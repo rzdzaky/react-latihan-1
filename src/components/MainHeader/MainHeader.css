@@ -53,3 +53,11 @@ header {
 .left {
     margin-right: 50px;
 }
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display:none;
+}
